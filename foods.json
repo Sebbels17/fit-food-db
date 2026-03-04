@@ -1,0 +1,124 @@
+{
+  "version": 1,
+
+  "categories": [
+    "Fleisch",
+    "Fisch",
+    "Milchprodukte",
+    "Getreide",
+    "Gemüse",
+    "Obst",
+    "Snacks",
+    "Süßwaren",
+    "Aufstrich",
+    "Getränke",
+    "Fertiggerichte",
+    "Backwaren",
+    "Nüsse",
+    "Saucen",
+    "Gewürze"
+  ],
+
+  "allergen_list": [
+    "gluten",
+    "crustaceans",
+    "eggs",
+    "fish",
+    "peanuts",
+    "soy",
+    "milk",
+    "nuts",
+    "celery",
+    "mustard",
+    "sesame",
+    "sulphites",
+    "lupin",
+    "molluscs"
+  ],
+
+  "tags_supported": [
+    "vegan",
+    "vegetarian",
+    "gluten_free",
+    "lactose_free",
+    "high_protein",
+    "low_carb",
+    "low_fat",
+    "high_fiber",
+    "keto"
+  ],
+
+  "foods": [
+    {
+      "barcode": "4008400402222",
+      "name": "Nutella",
+      "brand": "Ferrero",
+      "category": "Aufstrich",
+
+      "serving_size": 100,
+      "serving_unit": "g",
+
+      "allergens": ["milk", "nuts"],
+      "traces": ["soy"],
+
+      "tags": ["vegetarian"],
+
+      "nutrition": {
+        "energy_kcal": 539,
+        "energy_kj": 2252,
+
+        "fat": 30.9,
+        "sat_fat": 10.6,
+        "mono_fat": null,
+        "poly_fat": null,
+
+        "carbs": 57.5,
+        "sugar": 56.3,
+        "starch": null,
+        "polyols": null,
+
+        "fiber": 3.4,
+        "protein": 6.3,
+
+        "salt": 0.107,
+        "sodium": null
+      }
+    },
+
+    {
+      "barcode": "4311501654106",
+      "name": "Haferflocken",
+      "brand": "Kölln",
+      "category": "Getreide",
+
+      "serving_size": 100,
+      "serving_unit": "g",
+
+      "allergens": ["gluten"],
+      "traces": ["nuts"],
+
+      "tags": ["vegan", "vegetarian", "high_fiber"],
+
+      "nutrition": {
+        "energy_kcal": 372,
+        "energy_kj": 1557,
+
+        "fat": 7.0,
+        "sat_fat": 1.2,
+        "mono_fat": null,
+        "poly_fat": null,
+
+        "carbs": 60.0,
+        "sugar": 1.1,
+        "starch": null,
+        "polyols": null,
+
+        "fiber": 10.0,
+        "protein": 13.0,
+
+        "salt": 0.01,
+        "sodium": null
+      }
+    }
+  ]
+}
